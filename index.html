@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+   <title>JS</title>
+   <link rel="stylesheet" href="style.css" />
+   <script src="index.js" defer></script>
+ </head>
+
+ <body>
+   <h1>Current Bitcoin Price</h1>
+   <p>Date and Time: <span id="datetime"></span></p>
+   <p>The current price of Bitcoin is: <span id="price"></span></p>
+   <select id="currency-selector">
+     <option value="USD">USD</option>
+     <option value="EUR">EUR</option>
+     <!-- Add more currencies as needed -->
+   </select>
+   <button id="refresh-button">Refresh Price</button>
+   <button id="toggle-button">Toggle Price Visibility</button>
+ </body>
+</html>
